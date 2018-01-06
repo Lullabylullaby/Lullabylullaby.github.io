@@ -3,5 +3,5 @@ var consoler = new VConsole();
 
 var tool = document.getElementById("tool");
 setInterval(function(){
-  tool.innerHtml = "" + new Date();
+  tool.innerHTML = "" + new Date();
 },1000)
