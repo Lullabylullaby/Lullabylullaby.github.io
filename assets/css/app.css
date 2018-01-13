@@ -10,4 +10,21 @@ html,body{
   text-align:center;
   color:#ffffff;
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  margin:0 auto;
+  animation: bounceIn 1s liner 0s;
+  overflow:hidden;
+  transform-origin: 50% 50% 0;
+}
+.home-page>h1{
+  margin: 40px 0;  
+}
+.home-page a{
+  color:#ffffff;
+  text-shadow: 0 0 2px 0 #330867;
+}
+
+@keyframe bounceIn{
+  0%{ transform: scale(.7) translateY(30px);opacty:.7;}
+  90%{ transform: scale(1.1) translateY(-10px);}
+  100%{ transform: scale(1) translateY(0);opacty:0;}
 }
